@@ -1,0 +1,11 @@
+{
+    "manager-name": "bslydelg-test",
+    "max-workers": 20,
+    "min-workers": 20,
+    "workers-per-cycle": 20,
+    "cores": 8,
+    "memory": cores * 8000,
+    "disk": cores * 9000,
+    "timeout": 900,
+    "condor-requirements": "((has_scratch365))",
+}
